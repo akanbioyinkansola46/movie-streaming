@@ -32,11 +32,6 @@ header h1 {
     font-size: 40px;
     font-weight: 400;
 }
-
-nav {
-    /* gap: 50px; */
-}
-
 nav a {
     text-decoration: none;
     color: #fff;
@@ -48,8 +43,6 @@ nav a {
 
 .search {
     display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
     justify-items: center;
     width: 300px;
     height: 50px;
@@ -182,8 +175,9 @@ nav a {
 .head {
     color: white;
     font-family: 'Oswald', sans-serif;
-    font-size: 50px;
+    font-size: 45px;
     margin: 0 60px;
+    line-height: 2;
 }
 
 .cards {
@@ -332,18 +326,46 @@ nav a {
     gap: 15px;
     margin: 0 15px;
 }
-
+.watching h1{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+}
 .watch1 {
-    width: 50%;
+    width: 60%;
 margin-top: 60px;
 }
 .watch1 img{
     object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
 }
 .watch2 {
-    width: 50%;
-}
+    width: 40%;
+margin-top: 80px;
 
+}
+.watch2 h2{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+.text{
+    color: #fff;
+line-height: 1.5;
+font-size: 16px;
+}
+.detail{
+    display: flex;
+    gap: 25px;
+    margin-top: 8px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
 .last-parent{
 display: flex;
 gap:10px;
@@ -394,12 +416,14 @@ margin-top: 90px;
 .ending a {
     text-decoration: none;
     color: #fff;
+    margin-top: 8px;
 }
 
 .socials {
     display: flex;
     gap: 10px;
     max-width: 20%;
+    margin-top: 20px;
 }
 
 .last {
